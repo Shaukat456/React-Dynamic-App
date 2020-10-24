@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box; margin: 0px; padding: 0%;
+}
+ h1,input,button{
+    display: block;
+    margin:10% auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px ;
+    width: 30%;
+    background-color: blanchedalmond;
+    text-transform: capitalize;
+    font-family: monospace;
+    
+    transition: all .4s ease-out;
+
+    animation-name: s1;
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    
+
+    
+}
+
+@keyframes s1{
+    from{
+        margin: 0px;
+        padding: 20px;
+        opacity: .6;
+    }
+    to{
+        margin:10% auto;
+        padding: 5px ;
+        opacity: 1;
+    }
+}
+
+ h1:hover,input:hover,button:hover{
+    display: block;
+    margin:10% auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px ;
+    width: 30%;
+    background-color: rgb(224, 168, 85);
+    text-transform: capitalize;
+    font-family: monospace;
+    transform: scale(1.2);
+    transition: all .4s ease-out;
+   
+
+}
+
+
