@@ -36,7 +36,7 @@
     }
 }
 
- h1:hover,input:hover,button:hover{
+ h1:hover,input:hover,button:hover,input:focus{
     display: block;
     margin:10% auto;
     border: 2px solid black;
